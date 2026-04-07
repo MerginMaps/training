@@ -16,11 +16,11 @@ After this training you'll be able to:
 # Overview of Mergin Maps (9:15 - 9:30)
 * Presentation about the Mergin Maps ecosystem
 
-# Setup a Mergin Maps project in QGIS (9:30 - 10:30)
+# Setup a Mergin Maps project in QGIS (9:30 - 11:30)
 * Live demo (plugin, basic project, widgets, synchronisation)
 * PDF with step-by-step tutorial
 
-# Field data collection (10:30 - 12:30)
+# Field data collection (11:30 - 12:30)
 Participants will do the steps and test the project in the field.
 
 Reconvene after lunch
