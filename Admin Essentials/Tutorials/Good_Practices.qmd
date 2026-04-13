@@ -1,6 +1,6 @@
 ---
 title: "Mergin Maps Admin Essentials"
-subtitle: "Exercise: Good Practices"
+subtitle: ""
 author: "Ryan Aherin"
 date: "2024-03-05"
 format:
