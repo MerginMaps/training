@@ -1,0 +1,29 @@
+---
+title: "Mergin Maps Admin Essentials"
+subtitle: "Exercise: User management"
+author: "Ryan Aherin"
+date: "2024-03-05"
+format:
+  pdf: 
+    toc: false
+---
+
+
+{{< pagebreak >}}
+
+
+# User management
+
+In this exercise, we will cover the basics of user management on the
+[Mergin Maps Dashboard](https://app.merginmaps.com/). By the end of the 
+exercise you will learn about:
+
+  - [User roles and permissions](https://merginmaps.com/docs/manage/permissions/#member-roles-and-permissions)
+  - [Inviting users to your workspace](https://merginmaps.com/docs/manage/project-advanced/#add-users-to-a-workspace)
+  - [Inviting guests to specific projects](https://merginmaps.com/docs/manage/project-advanced/#add-users-to-a-project)
+  - [Managing project permissions](https://merginmaps.com/docs/manage/permissions/#managing-member-roles-and-project-permissions)
+
+
+If you need to refer to any of the information covered in this tutorial, follow the links above.
+
+

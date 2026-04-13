@@ -1,0 +1,37 @@
+---
+title: "Mergin Maps Admin Essentials"
+subtitle: "Exercise: Field data collection"
+author: "Ryan Aherin"
+date: "2024-03-05"
+format:
+  pdf: 
+    toc: false
+---
+
+
+{{< pagebreak >}}
+
+
+# Field data collection
+In this exercise, we will introduce you to the mobile app, practice collecting data in the field 
+and syncing it with your project. All of the information covered in this section is available in the
+official Mergin Maps documentation. We will provide links for each section so you can refer to this at
+a later time.
+
+## 1. Mergin Maps app overview
+
+An introduction to the Mergin Maps mobile app. You can also find this information in our Documentation
+in the [Mergin Maps Mobile App Interface](https://merginmaps.com/docs/field/mobile-app-ui/#mergin-maps-mobile-app-interface) section.
+
+## 2. Collecting field data
+
+A breakout exercise on collecting data with the app. We can simulate data collection at your desk or you can go out and try it yourself during the break.
+
+If you wish to refer to this section later on, you can follow instructions on the [How to add,edit,delete features](https://merginmaps.com/docs/field/mobile-features/#how-to-add-edit-delete-features) section of our Documentation.
+
+## 3. Share your results
+
+After the break, we will meet together and discuss our results.
+
+---
+

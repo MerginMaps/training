@@ -1,0 +1,36 @@
+---
+title: "Mergin Maps Admin Essentials"
+subtitle: "Exercise: Collaborative mapping"
+author: "Ryan Aherin"
+date: "2024-03-05"
+format:
+  pdf: 
+    toc: false
+---
+
+
+{{< pagebreak >}}
+
+
+# Collaborative mapping
+
+In this exercise, we will cover the workflow for working collaboratively with other
+users on your Mergin Maps project. You will invite another user to your project and
+then both users will record updates on the same project. We will then discuss the outcomes 
+and review the project history.
+
+## Recording data
+
+First we will practice recording data with multiple users on the same project. If you would like
+to learn more about how the synchronisation process enables collaborative working in Mergin
+Maps, you can read about it here: <https://merginmaps.com/docs/manage/synchronisation/#synchronisation>
+
+## Project history
+
+Now that we have recorded and synced some changes to the project, we will review the project history
+to examine how the project was changed. If you wish to refer to this section again, you can follow
+the two primary methods for checking project history:
+
+  1. [Mergin Maps Dashboard](https://merginmaps.com/docs/manage/project-history/#project-history-and-advanced-changelog-on-the-dashboard)
+  2. Mergin Maps Plugin [History Viewer](https://merginmaps.com/docs/manage/project-history/#project-history-in-qgis)
+

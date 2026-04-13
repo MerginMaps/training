@@ -31,11 +31,11 @@ In this section, we'll create a mimimal project that we'll further extend later 
 1. Open QGIS
 2. Locate the Mergin Maps QGIS plugin toolbar in the upper navigation panel in QGIS. Click on the **Create Mergin Maps Project** button
   
-   ![QGIS plugin Create Mergin Maps Project](../assets/qgis-create-mergin-project.jpg "QGIS plugin Create Mergin Maps Project")
+   ![QGIS plugin Create Mergin Maps Project](../Assets/qgis-create-mergin-project.jpg "QGIS plugin Create Mergin Maps Project")
 
 3. Choose the first option: **New basic QGIS project**
 
-  ![Create Mergin Maps project: New basic QGIS project](../assets/mergin-plugin-new-basic-project.jpg "Create Mergin Maps project: New basic QGIS project")
+  ![Create Mergin Maps project: New basic QGIS project](../Assets/mergin-plugin-new-basic-project.jpg "Create Mergin Maps project: New basic QGIS project")
 
 4. When creating a Mergin Maps project, we need to set:
   - A [workspace](https://merginmaps.com/docs/manage/workspaces/). If you have multiple workspaces available, choose the one you want to use. Here we'll use `MM Admin Essentials`.
@@ -44,7 +44,7 @@ In this section, we'll create a mimimal project that we'll further extend later 
   
 5. Click **Finish** to create the project.
 
-  ![Create new Mergin Maps project in QGIS](../assets/Screenshot 2024-03-01 212429.png "Create new Mergin Maps project in QGIS"){width=250}
+  ![Create new Mergin Maps project in QGIS](../Assets/Screenshot 2024-03-01 212429.png "Create new Mergin Maps project in QGIS"){width=250}
 
 Your new project should now be created and uploaded to [ Mergin Maps](https://app.merginmaps.com/) cloud. 
 
@@ -337,11 +337,23 @@ When capturing a new feature near an existing one, the crosshairs will turn purp
 
 For more advanced snapping settings, check the [Mergin Maps documentation](https://merginmaps.com/docs/gis/snapping/).
 
+### Map sketching
+Map sketching lets you draw freehand sketches on the map using a line layer. We'll enable this in our project to see how the feature works:
+
+1.Tick the box to enable map sketching
+
+  ![Map sketching](/img/enable_map_sketching.png)
+
+2. *Optional* You can use the drop-down boxes to select custom colours for your sketching layers or use the default options
+
+
 ### Other settings
 In the **Project Properties** under the **Mergin Maps** tab you can configure a few more things:
 
 * Photo name format: you can use expressions with variables to control the naming of photos
-* Position tracking: when this is activated, you can track your position with the Mergin Maps mobile app.
+* Position tracking: when this is activated, you can track your position with the Mergin Maps mobile app
+* Photo sketching: similar to map sketching, this enables drawing freehand notes on photos taken in the app, this feature is still experimental so may cause unexpected behaviour
+* Layer order: choose how layers are ordered when viewed in the 'Layers' tab, by default this will follow layer order in QGIS but you can set it to 'Alphabetical' if you prefer
 
 For this tutorial, we'll not change these settings. Check the [Mergin Maps documentation](https://merginmaps.com/docs/gis/features/) if you want to learn more about this.
 
@@ -372,8 +384,7 @@ Here we're going to add a photo.
 4. Add the following **HTML Map Tip**:
 
    ```
-   # image
-   file:///[%  @project_folder  %]/[% "photo" %]
+   <img src="file:///[%@project_folder%]/[% "photo" %]" width="300">
    ```
 
 5. Click **OK** to close the dialog.

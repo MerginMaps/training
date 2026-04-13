@@ -15,48 +15,12 @@ format:
   revealjs:
     incremental: false
     slide-level: 0
-    logo: img/lutra_logo.png
+    logo: ../Assets/mm_logo.png
     footer: "Mergin Maps Admin Essentials"
     smaller: true
     scrollable: true
 ---
 
-## Introduction to the trainers
-### Hans van der Kwast
-
-:::: {.columns}
-::: {.column width="40%"}
-* Associate Professor of Open Science and Digital Innovation at IHE Delft Institute for Water Education
-* Owner of [QWAST-GIS](https://www.qwast-gis.com/), official partner of Mergin Maps
-* Physical geographer, specialised in GIS and remote sensing
-* Board member of the [Dutch QGIS User Group](https://qgis.nl/)
-* OSGeo Charter Member
-
-:::
-
-::: {.column width="40%"}
-
-* Co-author of QGIS for Hydrological Applications
-* QGIS certified instructor
-* [GIS OpenCourseWare](https://courses.gisopencourseware.org/)
-
-* [YouTube channel](https://www.youtube.com/@hansvanderkwast)
-
-* PCRaster Tools plugin
-:::
-
-::: {.column width="20%"}
-
-![](../Assets/QWAST_GIS.png)
-![](../Assets/hyd2_230x.png)
-:::
-::::
-
-::: {.notes}
-:::
-
-
----
 
 ## Introduction to the trainers
 ### Radek Pasiok
@@ -172,7 +136,8 @@ Conclusion
 
 ---
 
-##
+## Mergin Maps Introduction
+
 
 ![](../Assets/mm_collect_share_publish.png)
 

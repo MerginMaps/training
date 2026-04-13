@@ -1,0 +1,27 @@
+---
+title: "Mergin Maps Admin Essentials"
+subtitle: "Exercise: Good Practices"
+author: "Ryan Aherin"
+date: "2024-03-05"
+format:
+  pdf: 
+    toc: false
+---
+
+
+{{< pagebreak >}}
+
+
+# Good practices
+
+When creating or updating projects in Mergin Maps, there are a few issues to 
+consider to avoid future errors or data conflicts. 
+
+ - Check the documentation regularly to keep up to date on the latest features
+ - Follow the recommended guide for [designing survey layers](https://merginmaps.com/docs/gis/features/#survey-layers)
+ - If you need to update an existing project, follow one of the [recommended methods](https://merginmaps.com/docs/manage/deploy-new-project/#how-to-deploy-revised-projects)
+   to avoid errors
+ - If your project is not working, check out our [Troubleshooting guide](https://merginmaps.com/docs/misc/troubleshoot/#troubleshoot) for 
+   recommendations and fixes for common errors.
+ - As always, you can reach out to us for support by emailing **support@merginmaps.com**
+

@@ -1,14 +1,18 @@
 ---
 title: "Mergin Maps Admin Essentials"
 subtitle: "A Tutorial"
-author: "Hans van der Kwast"
-date: "2024-03-05"
+author: "Hans van der Kwast, Ryan Aherin"
+date: "2026-04-10"
 format:
   pdf:
     toc: true
 ---
 
 {{< include Creating_a_Project_in_QGIS.qmd >}}
-
-
+{{< include Field_Data_Collection.qmd >}}
+{{< include Dashboard.qmd >}}
+{{< include User_Management.qmd >}}
+{{< include Collaborative_Mapping.qmd >}}
+{{< include Manage_Conflicts.qmd >}}
+{{< include Good_Practices.qmd >}}
 

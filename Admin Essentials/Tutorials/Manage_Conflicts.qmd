@@ -1,0 +1,56 @@
+---
+title: "Mergin Maps Admin Essentials"
+subtitle: "Exercise: Manage conflicts"
+author: "Ryan Aherin"
+date: "2024-03-05"
+format:
+  pdf: 
+    toc: false
+---
+
+
+{{< pagebreak >}}
+
+
+# Manage conflicts
+
+Typically, the Mergin Maps synchronisation function is able to determine the flow
+of changes between different versions submitted by users on the same project. However,
+there are specific circumstances where the app is unable to resolve differences between 
+versions. In these cases, the app will create conflict files so the project admin can reveiw the
+conflicting changes and make sure that the correct data is recorded in the project. In this exercise
+we will create some conflicting edits in the project and practice reviewing the conflict files.
+
+## Creating a conflict
+
+Work with the same partner you had in the previous exercise to create a conflict file in your project
+by following these steps:
+
+  1. Both users synchronise the project on your mobile devices so you have the latest version
+  2. *User A* - Select an existing feature in your project: 
+       - Open the attribute form and change the value of one of the fields for this feature 
+       - Save your change and synchronise the project
+  3. *User B* - Select the same feature that *User A* edited:
+       - Open the attribute form and change the value of the same field altered by *User A* to a different value than the value they put in
+       - Save your change and synchronise the project
+
+
+## Evaluate the conflict files
+
+Open the project in QGIS and synchronise to the latest version with the Mergin Maps plugin.
+You should now have an edit conflict *.json* file in the project directory. You can open the
+file in a text editor and see how the app handled the conflict including:
+
+ - The original value of the field that is in conflict
+ - The value entered by *User A*
+ - The final value from *User B* which was applied to the project
+
+You could then determine which value should be the correct one and make any corrections to 
+the project as necessary. 
+
+If you wish to read more about conflict files, you can find information about this in our documentation: <https://merginmaps.com/docs/manage/missing-data/#there-are-conflict-files-in-the-folder>
+
+Another type of conflict file can be created if Mergin Maps is unable to apply the user's changes to the project. In this case,
+the app will create a copy of the GeoPackage file containing the conflicted changes and upload that as a conflict copy. The 
+project admin will need to open this file and try to apply these changes manually using the **Detect dataset changes** tool in QGIS. 
+These conflicts are often caused when the data schema has been changed incorrectly. We will cover how to avoid this in the next section.

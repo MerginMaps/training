@@ -1,0 +1,23 @@
+---
+title: "Mergin Maps Admin Essentials"
+subtitle: "Exercise: Dashboard introduction"
+author: "Ryan Aherin"
+date: "2024-03-05"
+format:
+  pdf: 
+    toc: false
+---
+
+
+{{< pagebreak >}}
+
+
+# Mergin Maps Dashboard
+
+In this exercise, we will give an overview of the Merign Maps Dashboard. If you are using the SaaS
+version of Mergin Maps, you can reach the dashboard at <https://app.merginmaps.com/>. If you are
+on a custom or self-hosted server, you will have your own link to reach the dashboard. 
+
+If you need to refer to an overview of the dashboard at a later time, you can find the latest information
+in our [Documentation](https://merginmaps.com/docs/manage/dashboard/#mergin-maps-dashboard).
+
